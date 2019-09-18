@@ -23,9 +23,9 @@ function onButtonPress() {
     const grandTotal = calculateGrandTotal(total, tip, tax);
 
     // update labels to represent the previously calced values
-    document.querySelector('#tip-amount').innerHTML = `${tip.toFixed(2)}`
-    document.querySelector('#tax-amount').innerHTML = `${tax.toFixed(2)}`
-    document.querySelector('#grand-total').innerHTML = `${grandTotal.toFixed(2)}`
+    document.querySelector('#tip-amount').innerHTML = `$${tip.toFixed(2)}`
+    document.querySelector('#tax-amount').innerHTML = `$${tax.toFixed(2)}`
+    document.querySelector('#grand-total').innerHTML = `$${grandTotal.toFixed(2)}`
 }
 
 // Constant tax rate of 5.5%
