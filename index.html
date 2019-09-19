@@ -9,16 +9,27 @@
 </head>
 <body>
     <div id="main">
+        <h1 class="centered">Maitre D</h1>
         <table class="centered">
             <tr>
-                <td colspan="2"><label for="total-field">Total:</label><input id="total-field" type="text" name="total-field"></td>
+                <td colspan="2">
+                    <span class="flex-area">
+                        <label for="total-field">Total:</label>
+                        <input id="total-field" type="text" name="total-field">
+                    </span>
+                </td>
             </tr>
             <tr class="blank-row">
             </tr>
                 <td colspan="2"></td>
             <tr>
                 <td><label>Tip: <span id="tip-amount">$0.0</span></label></td>
-                <td><label for="rate-field">Rate:</label><input id="rate-field" type="text" name="rate-field" value="20.0"></td>
+                <td>
+                    <span class="flex-area">
+                        <label for="rate-field">Rate:</label>
+                        <input id="rate-field" type="text" name="rate-field" value="20.0">
+                    </span>
+                </td>
             </tr>
             <tr>
                 <td><label>Tax: <span id="tax-amount">$0.0</span></label></td>

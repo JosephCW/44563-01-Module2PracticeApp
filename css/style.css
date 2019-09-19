@@ -1,9 +1,9 @@
-input {
-    width: 5em;
+.flex-area {
+    display: flex;
 }
 
-#total-field {
-    width: 14.7em;
+input {
+    flex: 1;
 }
 
 label {
@@ -16,7 +16,7 @@ table {
     padding-top: 1em;
 }
 
-#button-div{
+#button-div, h1 {
     text-align: center;
 }
 
